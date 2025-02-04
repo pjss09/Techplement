@@ -68,7 +68,7 @@ if __name__ == "__main__":
             email = input("Enter email: ")
             cm.add_contact(name, phone, email)
         elif choice == "2":
-            query = input("Enter name or phone to search: ")
+            query = input("ENTER A NAME OR PHONE NO. TO SEARCH: ")
             cm.search_contact(query)
         elif choice == "3":
             name = input("Enter name to update: ")
